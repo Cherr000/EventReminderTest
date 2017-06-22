@@ -29,5 +29,7 @@ namespace EventReminder.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<CustomerInformation> CustomerInformation { get; set; }
     }
 }
